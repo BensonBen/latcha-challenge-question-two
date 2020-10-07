@@ -1,3 +1,5 @@
+import 'reflect-metadata';
+
 import {Database} from 'sqlite3';
 import {isNil as _isNil} from 'lodash';
 import {red, green} from 'chalk';

@@ -2,7 +2,7 @@ export interface Product {
   id: number;
   name: string;
   cost: number;
-  color: 'white' | 'blue' | 'green' | 'red';
-  size: 'small' | 'medium' | 'large';
+  color: string;
+  size: string;
   retired: number;
 }
