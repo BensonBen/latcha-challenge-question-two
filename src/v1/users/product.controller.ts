@@ -10,7 +10,6 @@ import {number, object, string, ValidationError} from 'joi';
 import {Product} from '../../model/product';
 import {Database} from 'sqlite3';
 import {Transaction} from '../../model/transaction';
-import {Error} from 'mongoose';
 
 @injectable()
 export class ProductController {
@@ -302,6 +301,6 @@ export class ProductController {
     response.status(INTERNAL_SERVER_ERROR).send({
       ...ProductController.baseTransaction,
       message: 'Internal Server Error',
-    });
+    } as Transaction<Product>);
   }
 }
