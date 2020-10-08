@@ -60,8 +60,6 @@ export class ProductController {
           console.log(green(`[Server] executing query: ${query}`));
 
           ProductController.database.get(query, (error: Error | null, row) => {
-            ProductController.gone(row, response);
-
             console.log(green(`[Server] found product ${JSON.stringify(row)}`));
 
             response.status(OK).send({

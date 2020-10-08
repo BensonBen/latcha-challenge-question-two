@@ -155,6 +155,15 @@
     Adding in additonal routes and then combining those to their appropriate handlers. Using dependency injection to resovle those dependencies and creating new endpoints should be straight forward. However, there should be further segmentation of database logic, and more base services for duplicated logic.
 </p>
 
+# API
+
+|     Enpoint      |  Type  |                                              Body                                               |                         Screenshot With Postman                          |
+| :--------------: | :----: | :---------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------: |
+| `/v1/products/1` |  GET   |                                              None                                               |  ![Get On Primary Key](/running_screenshots/get_request_on_id_one.png)   |
+| `/v1/products/1` | DELETE |                                              None                                               | ![Delete on Primary Key](/running_screenshots/delete_on_primary_key.png) |
+|  `/v1/products`  |  POST  | `{ "color": "blue", "cost": 2, "name": "SirGrabingtonTheThird", "retired": 1, "size": "small"}` |     ![Create New Entity](/running_screenshots/create_new_entity.png)     |
+|  `/v1/products`  | PATCH  |     `{ "id": 3, "color": "red", "cost": 2, "name": "Yeet", "retired": 1, "size": "Large" }`     |      ![Update Entity](/running_screenshots/create_then_update.png)       |
+
 ## License
 
 Licensed under the [MIT License]
