@@ -10,7 +10,7 @@
 - [Usage](#usage)
 - [Architecture](#architecture)
 - [Faults](#faults)
-- [Extending the API](#suggestions)
+- [Extending the API](#extending)
 - [API](#api)
 
 ## Summary
@@ -100,10 +100,8 @@
 - See [DotEnv](https://github.com/motdotla/dotenv) for more information on the environment variable loader.
 - See [Express](https://github.com/expressjs/express) for more information on the http server that was used.
 - See [Helmet](https://github.com/helmetjs/helmet) for more information on the potential security enhancements that could be used.
-- See [Helmet](https://github.com/helmetjs/helmet) for more information on the potential security enhancements that could be used.
 - See [Http-Status](https://github.com/adaltas/node-http-status) for more information on Standardized HTTP Statuses that were used.
 - See [Joi](https://www.npmjs.com/package/joi) for more information on the validation that was done on user requests.
-- See [Lodash](https://github.com/lodash/lodash) for more information on the boiler plate javascript utility functions that were used.
 - See [Lodash](https://github.com/lodash/lodash) for more information on the boiler plate javascript utility functions that were used.
 - See [Reflect-Metadata](https://github.com/rbuckton/reflect-metadata) for more information on how dependency injection was enabled in typescript.
 - See [SQL Lite 3](https://github.com/mapbox/node-sqlite3) for more information on the in memory SQL Lite database that was used.
@@ -169,5 +167,26 @@
 Licensed under the [MIT License]
 
 ```
+MIT License
+
+Copyright (c) 2020 Benjamin Benson
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ```
